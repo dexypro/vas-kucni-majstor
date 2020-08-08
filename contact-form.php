@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $message = $_POST['message'];
@@ -13,7 +13,7 @@ $email_body = "Ime: $name.\n".
 "Poruka: $message.\n";
 
 
-$to = "bajovicdejan91@gmail.com";
+$to = "vajt.hatz.res@gmail.com";
 
 $headers = "From: $email_from \r\n";
 
@@ -25,4 +25,4 @@ header("Location: poruka.html");
 
 
  
-?> -->
+?> 
